@@ -1,4 +1,4 @@
-# 🪄 **RealClo: AI-Powered Virtual Try-On**
+# 👕 **RealClo: AI-Powered Virtual Try-On**
 
 RealClo offers a new and scalable approach to online fashion retail by allowing customers to **see how clothing realistically looks on their own body or an AI-generated avatar** before purchasing.
 The platform bridges the gap between physical and digital shopping by improving **fit confidence**, reducing **product returns**, and enhancing **inclusivity** in fashion e-commerce.
@@ -66,93 +66,6 @@ venv\Scripts\activate       # On Windows
 ```bash
 pip install -r requirements.txt
 ```
-
----
-
-### 🔐 **Authentication Setup**
-
-RealClo connects to the **KlingAI API** for image generation and virtual try-on.
-
-In your environment, set your API key or secret as an environment variable:
-
-Perfect — that clarifies things 🔐
-
-So your app uses **ACCESS_KEY** and **SECRET_KEY** (not a simple API key) to authenticate with KlingAI.
-That means you’re generating a **JWT** using those two credentials — the **ACCESS_KEY** identifies your account, and the **SECRET_KEY** signs the token.
-
-Let’s update your **README** to reflect that properly, so anyone setting it up knows exactly how to configure the credentials.
-
----
-
-## 🪄 **RealClo: AI-Powered Virtual Try-On**
-
-RealClo enables online shoppers to **see how clothes would realistically look on their own body or an AI-generated avatar** — before buying.
-It bridges the gap between physical and digital retail by improving **fit accuracy**, **inclusivity**, and reducing **returns**.
-
----
-
-### 🌐 **Overview**
-
-Two interactive modes:
-
-1. **👕 Photo Fit** – Upload or select a model photo and visualize a garment.
-2. **🧍 Build Avatar** – Generate an AI avatar using your body measurements and try on clothes virtually.
-
-RealClo connects to the **KlingAI API** for avatar generation and virtual try-on image synthesis.
-
----
-
-### 🧱 **Repository Structure**
-
-```
-realclo/
-│
-├── app.py                    # Main Streamlit app entry point
-│
-├── modes/                    # Two main user flows
-│   ├── photo_fit.py
-│   └── build_avatar.py
-│
-├── utils/                    # Shared helpers
-│   ├── api.py                # API logic (headers, polling, image download)
-│   └── ui_helpers.py         # UI components, image utils, measurements
-│
-├── assets/                   # Static files
-│   ├── logo.png
-│   ├── model/
-│   ├── garment/
-│   └── avatar/
-│
-├── authenticate.py           # JWT generator using ACCESS_KEY & SECRET_KEY
-├── requirements.txt
-└── README.md
-```
-
----
-
-### ⚙️ **Installation**
-
-#### 1. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/realclo.git
-cd realclo
-```
-
-#### 2. Create a virtual environment
-
-```bash
-python -m venv venv
-source venv/bin/activate    # Mac/Linux
-venv\Scripts\activate       # Windows
-```
-
-#### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ### 🔐 **Authentication Setup**
