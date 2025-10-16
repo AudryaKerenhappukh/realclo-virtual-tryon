@@ -1,8 +1,4 @@
-Absolutely 💪 — here’s a **clean, professional README** for your RealClo repo that explains what it does, how to install it, and how to run it locally or deploy it. It’s written to fit your current Streamlit + modular structure.
-
----
-
-## 🪄 **RealClo: AI-Powered Virtual Try-On**
+# 🪄 **RealClo: AI-Powered Virtual Try-On**
 
 RealClo offers a new and scalable approach to online fashion retail by allowing customers to **see how clothing realistically looks on their own body or an AI-generated avatar** before purchasing.
 The platform bridges the gap between physical and digital shopping by improving **fit confidence**, reducing **product returns**, and enhancing **inclusivity** in fashion e-commerce.
@@ -53,7 +49,7 @@ realclo/
 #### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/realclo.git
+git clone https://github.com/AudryaKerenhappukh/realclo-virtual-tryon
 cd realclo
 ```
 
